@@ -12,6 +12,13 @@ public class SayHelloController {
     @RequestMapping("sayHello")
     @ResponseBody
     public String sayHello() {
+        return "Hello World!!!";
+
+    }
+
+    @RequestMapping("sayHelloHTML")
+    @ResponseBody
+    public String sayHelloHtml() {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("<html>");
         stringBuffer.append("<head>");
@@ -22,6 +29,12 @@ public class SayHelloController {
         stringBuffer.append("</body>");
         stringBuffer.append("</html>");
         return stringBuffer.toString();
+
+    }
+
+    @RequestMapping("sayHelloJSP")
+    public String sayHelloJSP() {
+        return "sayHello";
 
     }
 
