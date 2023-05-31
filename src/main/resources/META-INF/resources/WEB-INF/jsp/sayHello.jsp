@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <title>Hello JSP</title>
     </head>
     <body>
-        <h1>Say Hello JSP!</h1>
+        <h1>Hello JSP!</h1>
     </body>
-</html>>
+</html>
